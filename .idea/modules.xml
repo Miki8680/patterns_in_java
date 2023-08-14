@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/command/command.iml" filepath="$PROJECT_DIR$/command/command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/command/command-head-first/command-head-first.iml" filepath="$PROJECT_DIR$/command/command-head-first/command-head-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns.learning.com.iml" filepath="$PROJECT_DIR$/patterns.learning.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/command/withot-command/withot-command.iml" filepath="$PROJECT_DIR$/command/withot-command/withot-command.iml" />
     </modules>
   </component>
 </project>
