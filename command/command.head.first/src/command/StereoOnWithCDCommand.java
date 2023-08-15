@@ -16,4 +16,10 @@ public class StereoOnWithCDCommand implements Command{
         stereo.setVolume( 11);
         System.out.println("Stereo is ON with CD and volume = 11 .");
     }
+
+    @Override
+    public void undo() {
+        stereo.off();
+        System.out.println("Stereo is OFF.");
+    }
 }

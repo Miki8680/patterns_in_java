@@ -42,5 +42,16 @@ public class RemoteLoader {
             remoteControl.onButtonWasPushed(slot);
             remoteControl.offButtonWasPushed(slot);
         }
+
+        System.out.println( remoteControl);
+
+        remoteControl.onButtonWasPushed(1);
+        remoteControl.offButtonWasPushed(1);
+        System.out.println( remoteControl);
+
+        remoteControl.onButtonWasPushed(1);
+        remoteControl.undoButtonWasPressed();
+        System.out.println( remoteControl);
+
     }
 }
